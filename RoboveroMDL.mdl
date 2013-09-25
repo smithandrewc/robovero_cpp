@@ -6,7 +6,7 @@ Model {
     NumRootInports	    0
     NumRootOutports	    0
     ParameterArgumentNames  ""
-    ComputedModelVersion    "1.2"
+    ComputedModelVersion    "1.3"
     NumModelReferences	    0
     NumTestPointedSignals   0
   }
@@ -27,9 +27,9 @@ Model {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "acsmith"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Wed Sep 25 09:49:20 2013"
-  RTWModifiedTimeStamp	  302003357
-  ModelVersionFormat	  "1.%<AutoIncrement:2>"
+  LastModifiedDate	  "Wed Sep 25 10:29:59 2013"
+  RTWModifiedTimeStamp	  302005794
+  ModelVersionFormat	  "1.%<AutoIncrement:3>"
   ConfigurationManager	  "TamTam SVN SCC"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
@@ -67,6 +67,7 @@ Model {
     $ObjectID		    1
     $ClassName		    "Simulink.SimulationData.ModelLoggingInfo"
     model_		    "RoboveroMDL"
+    signals_		    []
     overrideMode_	    [0.0]
     Array {
       Type		      "Cell"
@@ -447,6 +448,7 @@ Model {
 	  ConfigAtBuild		  off
 	  RTWUseLocalCustomCode	  off
 	  RTWUseSimCustomCode	  off
+	  CustomSource		  "Robovero.cpp\nI2CDevice.cpp\nPWMDevice.cpp\nADCDevice.cpp"
 	  IncludeHyperlinkInReport off
 	  LaunchReport		  off
 	  TargetLang		  "C"
@@ -759,8 +761,8 @@ Model {
 	PropName		"Components"
       }
       Name		      "Configuration"
-      CurrentDlgPage	      "Solver"
-      ConfigPrmDlgPosition     [ 520, 285, 1400, 915 ] 
+      CurrentDlgPage	      "Code Generation/Custom Code"
+      ConfigPrmDlgPosition     [ 504, 225, 1416, 931 ] 
     }
     PropName		    "ConfigurationSets"
   }
